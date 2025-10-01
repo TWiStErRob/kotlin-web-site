@@ -191,6 +191,10 @@ kotlin {
 ### Support for reified types in `catch` clauses
 <primary-label ref="experimental-opt-in"/>
 
+> Support for code analysis, code completion, and highlighting of this feature in IntelliJ IDEA is currently available only in [2025.3 EAP builds](https://www.jetbrains.com/idea/nextversion/).
+> 
+{style = "note"}
+
 In Kotlin 2.2.20, the compiler now allows using [reified generic type parameters](inline-functions.md#reified-type-parameters) in `catch` clauses of `inline` functions.
 
 Here's an example:
@@ -231,6 +235,10 @@ The Kotlin team is grateful to external contributor [Iven Krall](https://github.
 
 ### Improved Kotlin contracts
 <primary-label ref="experimental-opt-in"/>
+
+> Support for code analysis, code completion, and highlighting of this feature in IntelliJ IDEA is currently available only in [2025.3 EAP builds](https://www.jetbrains.com/idea/nextversion/).
+>
+{style = "note"}
 
 Kotlin 2.2.20 introduces several improvements to [Kotlin contracts](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.contracts/contract.html), including:
 
